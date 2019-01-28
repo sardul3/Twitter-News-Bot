@@ -25,7 +25,7 @@ var newsTest = new news(newsKey);
 	sortBy: 'top'
 }).then(data =>{
 	
-	for(var i =0; i < 1; i++){
+	
 		newsHead =  data.articles[i].title;
 		url = data.articles[i].url;
 	
@@ -33,7 +33,7 @@ var newsTest = new news(newsKey);
 		console.log(newsHead + " "+ url);
 	});
 	
-}
+
 	
 });
 };
